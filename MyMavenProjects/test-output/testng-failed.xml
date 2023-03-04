@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="MyMavenProjects(failed)">
+    <classes>
+      <class name="advanceMethod.logoutAttempt">
+        <methods>
+          <include name="setupTestSuite"/>
+          <include name="tearDownTest"/>
+          <include name="basicAuth"/>
+          <include name="setUpTest"/>
+        </methods>
+      </class> <!-- advanceMethod.logoutAttempt -->
+    </classes>
+  </test> <!-- MyMavenProjects(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
